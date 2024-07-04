@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+    
+        .header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        .header .title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    
+        .header .nav-buttons {
+            display: flex;
+            gap: 10px;
+        }
+    
+        .header button {
+            background-color: #4a4a4a;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+    
+        .header button:hover {
+            background-color: #6a6a6a;
+        }
+    
+        .content {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-color: #181818;
+            padding: 20px;
+            gap: 20px;
+        }
+    
+        .chapter {
+            background-color: #333333;
+            padding: 20px;
+            border-radius: 17px;
+            text-align: center;
+            width: 200px;
+        }
+    
+        .chapter button {
+            background-color: #555555;
+            border: 2px solid #444444;
+            border-radius: 10px;
+            padding: 10px 20px;
+            margin: 5px;
+            color: #e0e0e0;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+    
+        .chapter button:hover {
+            background-color: #777777;
+        }
+    
+        .button a button {
+            width: 70%;
+            padding: 10px;
+            background-color: #ff6666;
+            border: none;
+            border-radius: 15px;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    
+        .button a button:hover {
+            background-color: #ff4d4d;
+        }
+    
+        .footer {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+    
+    
+    <script>
+        function navigate(location) {
+            window.location.href = location + '.html';
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div class="title">UNDERSTANDING THE SELF - Activities</div>
+        <div class="nav-buttons">
+            <button onclick="navigate('homepage1 - light')">Home</button>
+            <button onclick="navigate('lessons - light')">Lessons</button>
+            <button onclick="navigate('https://drive.google.com/drive/folders/1hc2qJuB7rlSJUlm5cdZY5sGI8UBlSOPA?usp=drive_link')">Admin</button>
+            <button onclick="navigate('about - light')">About</button>
+            <button onclick="navigate('homepage1')">Dark mode</button>
+        </div>
+    </div>
+    <div class="content">
+        <div class="chapter" id="chapter1">
+            <h2>Chapter 1</h2>
+            <div class="button"><a id="button" href="Activities - Chapter 1.pdf" target="_blank"><button>Activity</button></a></div>
+            <div class="button"><a id="button" href="Pre Test - Chapter 1.pdf" target="_blank"><button>Pre Test</button></a></div>
+            <div class="button"><a id="button" href="Post Test - Chapter 1.pdf" target="_blank"><button>Post Test</button></a></div>
+        </div>
+        <div class="chapter" id="chapter1">
+            <h2>Chapter 2</h2>
+            <div class="button"><a id="button" href="Activities - Chapter 2.pdf" target="_blank"><button>Activity</button></a></div>
+            <div class="button"><a id="button" href="Pre Test - Chapter 2.pdf" target="_blank"><button>Pre Test</button></a></div>
+            <div class="button"><a id="button" href="Post Test - Chapter 2.pdf" target="_blank"><button>Post Test</button></a></div>
+        </div>
+        <div class="chapter" id="chapter1">
+            <h2>Chapter 3</h2>
+            <div class="button"><a id="button" href="Activities - Chapter 3.pdf" target="_blank"><button>Activity</button></a></div>
+            <div class="button"><a id="button" href="Pre Test - Chapter 3.pdf" target="_blank"><button>Pre Test</button></a></div>
+            <div class="button"><a id="button" href="Post Test - Chapter 3.pdf" target="_blank"><button>Post Test</button></a></div>
+        </div>
+        <div class="chapter" id="chapter1">
+            <h2>Chapter 4</h2>
+            <div class="button"><a id="button" href="Activities - Chapter 4.pdf" target="_blank"><button>Activity</button></a></div>
+            <div class="button"><a id="button" href="Pre Test - Chapter 4.pdf" target="_blank"><button>Pre Test</button></a></div>
+            <div class="button"><a id="button" href="Post Test - Chapter 4.pdf" target="_blank"><button>Post Test</button></a></div>
+        </div>
+        <div class="chapter" id="chapter1">
+            <h2>Chapter 5</h2>
+            <div class="button"><a id="button" href="Activities - Chapter 5.pdf" target="_blank"><button>Activity</button></a></div>
+            <div class="button"><a id="button" href="Pre Test - Chapter 5.pdf" target="_blank"><button>Pre Test</button></a></div>
+            <div class="button"><a id="button" href="Post Test - Chapter 5.pdf" target="_blank"><button>Post Test</button></a></div>
+        </div>
+        <div class="chapter" id="chapter1">
+            <h2>Chapter 6</h2>
+            <div class="button"><a id="button" href="Activities - Chapter 6.pdf" target="_blank"><button>Activity</button></a></div>
+            <div class="button"><a id="button" href="Pre Test - Chapter 6.pdf" target="_blank"><button>Pre Test</button></a></div>
+            <div class="button"><a id="button" href="Post Test - Chapter 6.pdf" target="_blank"><button>Post Test</button></a></div>
+        </div>
+        <div class="chapter" id="chapter1">
+            <h2>Chapter 7</h2>
+            <div class="button"><a id="button" href="Activities - Chapter 7.pdf" target="_blank"><button>Activity</button></a></div>
+            <div class="button"><a id="button" href="Pre Test - Chapter 7.pdf" target="_blank"><button>Pre Test</button></a></div>
+            <div class="button"><a id="button" href="Post Test - Chapter 7.pdf" target="_blank"><button>Post Test</button></a></div>
+        </div>
+        <div class="chapter" id="chapter1">
+            <h2>Chapter 8</h2>
+            <div class="button"><a id="button" href="Activities - Chapter 8.pdf" target="_blank"><button>Activity</button></a></div>
+            <div class="button"><a id="button" href="Pre Test - Chapter 8.pdf" target="_blank"><button>Pre Test</button></a></div>
+            <div class="button"><a id="button" href="Post Test - Chapter 8.pdf" target="_blank"><button>Post Test</button></a></div>
+        </div>
+        <div class="chapter" id="chapter1">
+            <h2>Chapter 9</h2>
+            <div class="button"><a id="button" href="Activities - Chapter 9.pdf" target="_blank"><button>Activity</button></a></div>
+            <div class="button"><a id="button" href="Pre Test - Chapter 9.pdf" target="_blank"><button>Pre Test</button></a></div>
+            <div class="button"><a id="button" href="Post Test - Chapter 9.pdf" target="_blank"><button>Post Test</button></a></div>
+        </div>
+        <div class="chapter" id="chapter1">
+            <h2>Chapter 10</h2>
+            <div class="button"><a id="button" href="Activities - Chapter 10.pdf" target="_blank"><button>Activity</button></a></div>
+            <div class="button"><a id="button" href="Pre Test - Chapter 10.pdf" target="_blank"><button>Pre Test</button></a></div>
+            <div class="button"><a id="button" href="Post Test - Chapter 10.pdf" target="_blank"><button>Post Test</button></a></div>
+        </div>
+        <div class="chapter" id="chapter1">
+            <h2>Chapter 11</h2>
+            <div class="button"><a id="button" href="Activities - Chapter 11.pdf" target="_blank"><button>Activity</button></a></div>
+            <div class="button"><a id="button" href="Pre Test - Chapter 11.pdf" target="_blank"><button>Pre Test</button></a></div>
+            <div class="button"><a id="button" href="Post Test - Chapter 11.pdf" target="_blank"><button>Post Test</button></a></div>
+        </div>
+        <div class="chapter" id="chapter1">
+            <h2>Chapter 12</h2>
+            <div class="button"><a id="button" href="Activities - Chapter 12.pdf" target="_blank"><button>Activity</button></a></div>
+            <div class="button"><a id="button" href="Pre Test - Chapter 12.pdf" target="_blank"><button>Pre Test</button></a></div>
+            <div class="button"><a id="button" href="Post Test - Chapter 12.pdf" target="_blank"><button>Post Test</button></a></div>
+        </div>
+        <div class="chapter" id="chapter1">
+            <h2>Chapter 13</h2>
+            <div class="button"><a id="button" href="Activities - Chapter 13.pdf" target="_blank"><button>Activity</button></a></div>
+            <div class="button"><a id="button" href="Pre Test - Chapter 13.pdf" target="_blank"><button>Pre Test</button></a></div>
+            <div class="button"><a id="button" href="Post Test - Chapter 13.pdf" target="_blank"><button>Post Test</button></a></div>
+        </div>
+        <div class="chapter" id="chapter1">
+            <h2>Chapter 14</h2>
+            <div class="button"><a id="button" href="Activities - Chapter 14.pdf" target="_blank"><button>Activity</button></a></div>
+            <div class="button"><a id="button" href="Pre Test - Chapter 14.pdf" target="_blank"><button>Pre Test</button></a></div>
+            <div class="button"><a id="button" href="Post Test - Chapter 14.pdf" target="_blank"><button>Post Test</button></a></div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Understanding the Self. All Rights Reserved.</p>
+    </div>
+</body>
+</html>
